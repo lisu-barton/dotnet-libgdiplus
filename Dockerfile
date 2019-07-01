@@ -4,9 +4,10 @@ WORKDIR /app
 
 RUN apt-get -y update \
     && apt-get install -y --allow-unauthenticated \
-		tesseract-ocr \
-		libtesseract-dev \
-		libleptonica-dev \
+	tesseract-ocr \
+	tesseract-ocr-chi-sim \
+	libtesseract-dev \
+	libleptonica-dev \
         libc6-dev \
         libgdiplus \
         libx11-dev \
