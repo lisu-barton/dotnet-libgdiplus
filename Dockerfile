@@ -11,7 +11,7 @@ RUN apt-get -y update \
         libc6-dev \
         libgdiplus \
         libx11-dev \
-		rm -rf /var/lib/apt/lists/*
+	rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 EXPOSE 80
